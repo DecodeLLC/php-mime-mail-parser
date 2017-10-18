@@ -1,11 +1,11 @@
 {
-    "name": "php-mime-mail-parser/php-mime-mail-parser",
+    "name": "decodellc/php-mime-mail-parser",
     "type": "library",
-    "description": "Fully Tested Mailparse Extension Wrapper for PHP 5.4+",
+    "description": "(FORK) Fully Tested Mailparse Extension Wrapper for PHP 5.4+",
     "keywords": ["mime", "mail", "mailparse", "MimeMailParser"],
-    "homepage": "https://github.com/php-mime-mail-parser/php-mime-mail-parser",
+    "homepage": "https://github.com/decodellc/php-mime-mail-parser",
     "license": "MIT",
-    "authors": [      
+    "authors": [
         {
             "name":"eXorus",
             "email":"exorus.spam@gmail.com",
@@ -39,7 +39,7 @@
     ],
     "repository":{
         "type":"git",
-        "url":"https://github.com/php-mime-mail-parser/php-mime-mail-parser.git"
+        "url":"https://github.com/decodellc/php-mime-mail-parser.git"
     },
     "require": {
         "php":           "^5.4.0 || ^7.0",
