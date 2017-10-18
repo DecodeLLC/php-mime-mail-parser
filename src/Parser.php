@@ -370,9 +370,10 @@ class Parser
                     if (is_array($encodingType)) {
                         $encodingType = $encodingType[0];
                     }
-                    $body = $this->decodeContentTransfer($this->getPartBody($part), $encodingType);
-                    $body = $this->charset->decodeCharset($body, $this->getPartCharset($part));
-                    break;
+                    $_body = $this->decodeContentTransfer($this->getPartBody($part), $encodingType);
+                    $_body = $this->charset->decodeCharset($_body, $this->getPartCharset($part));
+                    $body .= $_body;
+                    //break;
                 }
             }
         } else {
